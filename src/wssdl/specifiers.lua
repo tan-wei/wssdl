@@ -274,6 +274,13 @@ specifiers.field_types = {
       return field
     end
   };
+
+  valuestring = {
+    _imbue = function(field, valstr)
+      field._valuestring = valstr
+      return field
+    end
+  }
 }
 
 return specifiers

@@ -101,7 +101,7 @@ local function make_field (fields, prefix, field)
       field._displayname or field._name,
       prefix .. field._name,
       ftype,
-      nil,
+      field._valuestring,
       format,
       nil,
       field._description)
